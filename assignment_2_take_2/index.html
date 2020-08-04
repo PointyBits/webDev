@@ -49,8 +49,7 @@
           <h2>To Buy:</h2>
           <ul>
             <li ng-repeat='item in itemAdder.items'>
-              {{item.quantity}} of {{item.name}}<button class="btn btn-default"
-                ng-click="itemAdder.move($index);itemAdder.removeItem($index);"><span
+              {{item.quantity}} of {{item.name}}<button class="btn btn-default" ng-click="itemAdder.move($index);itemAdder.removeItem($index);"><span
                   class="glyphicon glyphicon-ok"></span>
                 Bought</button><button ng-click="itemAdder.removeItem($index);">Remove Item</li>
 
